@@ -554,18 +554,7 @@ mark,
   max-width: 100%;
   height: auto;
 }
-.logoflotante{
-  color: green;
-  width: 100px;
-  height: 100px;
-  bottom: 30px;
-  position: fixed;
-  right: 40px;
-  background: none;
-}
-.logoflotante img:hover{
-  color:palevioletred;
-}
+
 .figure {
   display: inline-block;
 }
@@ -655,6 +644,44 @@ pre code {
   .container, .container-sm, .container-md, .container-lg, .container-xl {
     max-width: 1140px;
   }
+}
+
+.logoflotante{
+  color: green;
+  width: 100px;
+  height: 100px;
+  bottom: 30px;
+  position: fixed;
+  right: 40px;
+  background: none;
+}
+
+.logoflotante img:hover{
+  color:palevioletred;
+}
+
+.social-media-icon {
+  display: inline-block;
+  margin: 0px;
+  margin-left: 30px;
+  width: 90px;
+  height: 90px;
+  border: 3px solid palevioletred;
+  border-radius: 50%;
+  text-align: center;
+  color: palevioletred;
+  padding: 0px 0px;
+}
+
+.social-media-icon:hover {
+  background-color: black;
+  color: white;
+}
+.social-media-icon img{
+  width: 40px;
+  height: auto;
+margin-top: 20px;
+color: indianred;
 }
 
 .row {
